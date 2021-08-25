@@ -1,0 +1,22 @@
+.main {
+  padding: 0 16px;
+
+  &__colors {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 104px;
+  }
+
+  &__colors-title {
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    margin-bottom: 30px;
+  }
+
+  &__colors-text {
+    font-size: 12px;
+    align-self: center;
+    width: 270px;
+  }
+}

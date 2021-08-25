@@ -1,0 +1,48 @@
+.header {
+  background-image: url("/images/Virna_oblojka.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 75vh;
+  margin-bottom: 50px;
+
+  display: flex;
+  justify-content: space-between;
+
+  &__nav {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(40px);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  &__subtitle {
+    background-color: #fff;
+    padding: 0 16px 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  &__subtitle-logo {
+    width: 45px;
+  }
+
+  &__subtitle-text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-weight: normal;
+  }
+
+  &__subtitle-year {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-weight: 500;
+  }
+
+  &__lang-selector {
+    border: none;
+    font-family: inherit;
+    font-size: 14px;
+  }
+}
